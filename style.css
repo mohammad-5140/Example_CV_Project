@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5 ;
+    margin: 0 auto;
+}
+header{
+padding-top: 10px; 
+/* padding-bottom: 140px; */}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header_contact{
+    float: right;
+    padding: 30px;
+}
+.header_contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header_contact a:hover{
+    text-decoration: underline;
+    color:rgb(132, 63, 192);
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 97%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* personal section start here */
+#personal-section{
+
+}
+.content {
+    margin-bottom: 30px;
+}
+.content .left-div{
+    width: 30%;
+    float: left;
+}
+.left-div h3{
+    padding-left: 20px;
+}
+.content .right-div{
+    width: 70%;
+    float: left;
+    font-weight: bold;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 97%;
+    margin: 20 auto;
+}
+/* personal section End here */
+
+/* Experience section start here */
+#experience-section{
+    
+}
+/* Experience section end here */
+
+/* Key Skill section start here */
+
+#key-skill{
+
+}
+.right-div ul li{
+    margin-left: 20px;
+}
+
+/* Key Skill section End here */
+
+/* Education section start here */
+#education-section{
+
+}
+.content .right-div .education-template-left{
+    float: left;
+    width: 45% ;
+}
+.content .right-div .education-template-right{
+    float: right;
+    width: 45%;
+}
+/* Education section End here */
+/* Footer section Start here */
+.bottom-container{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.bottom-container a:hover{
+    color: black;
+}
+.bottom-container P{
+    color: white;
+    margin-top: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+.bottom-container P span{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bolder;
+}
+.bottom-container P span:hover{
+    color: darkred;
+}
+/* Footer section End here */
